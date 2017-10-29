@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>12</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h3>jQuery
+Задание. Разработайте скрипт, который получает из input введенный url адрес. Адрес обрабатывается таким образом, что введенные имена приводятся к виду:
+Ввели
+http://primer.ua
+http://www.primer.ua
+https://primer.ua
+Получили: primer (удаляются протоколы и локальные зоны)
+ Затем введенная строка обрабатывается по правилам:
+все символы о или О заменяются на 0 (нуль)
+l заменяются на единицу (символ эль на единицу)
+все символы «i» заменяются на 3
+все буквы s заменяются на 5 
+к результирующей строке добавляется случайный набор из 4-х символов.
+Результат – выводится на экран.
+Для реализации использовать jQuery.
+Примеры:
+ 
+Пользователь ввел	Получил	   
+http://mario.ua	mar30ter	   
+http://football.de	f00tba11st4	   
+http://kreed.ua	kreed76s	 
+</h3>
+
+	<input type="text" id="inp" placeholder="Адрес сайта">
+	<button id="btn">Изменить</button>
+	<p class="out">Результат:</p>
+			
+
+
+<!-- Подключается перед основным скриптом -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/12-1.js">
+		</script>
+</body>
+</html>
